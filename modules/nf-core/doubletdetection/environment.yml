@@ -5,5 +5,12 @@ channels:
 dependencies:
   - conda-forge::pip=25.0.1
   - conda-forge::pyyaml=6.0.2
+  - python=3.10
+  - anndata
+  - psutil
+  - phenograph
+  - pillow
+  - matplotlib
+  - pyparsing
   - pip:
       - doubletdetection==4.3.0.post1
